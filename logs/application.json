@@ -1,0 +1,32 @@
+{"@timestamp":"2022-04-29T15:09:00.246-04:00","message":"Slf4jLogger started"}
+{"@timestamp":"2022-04-29T15:09:00.280-04:00","message":"Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):\n\n    play.filters.csrf.CSRFFilter\n    play.filters.headers.SecurityHeadersFilter\n    play.filters.hosts.AllowedHostsFilter\n    filters.ContentSecurityPolicyFilter\n"}
+{"@timestamp":"2022-04-29T15:09:00.319-04:00","message":"Application started (Dev) (no global state)"}
+{"@timestamp":"2022-04-29T15:09:00.471-04:00","message":"index: ","host":"localhost:9000","path":"/"}
+{"@timestamp":"2022-04-29T15:09:01.066-04:00","message":"Checking the ORIGIN ","host":"localhost:9000","path":"/chat"}
+{"@timestamp":"2022-04-29T15:09:01.069-04:00","message":"originCheck: originValue = http://localhost:9000","host":"localhost:9000","path":"/chat"}
+{"@timestamp":"2022-04-29T15:09:38.755-04:00","message":"[source] Element: hello"}
+{"@timestamp":"2022-04-29T15:09:42.929-04:00","message":"[source] Element: whattup"}
+{"@timestamp":"2022-04-29T15:09:46.127-04:00","message":"[source] Element: yeah me too"}
+{"@timestamp":"2022-04-29T15:09:59.696-04:00","message":"Checking the ORIGIN ","host":"localhost:9000","path":"/chat"}
+{"@timestamp":"2022-04-29T15:09:59.696-04:00","message":"originCheck: originValue = http://localhost:9000","host":"localhost:9000","path":"/chat"}
+{"@timestamp":"2022-04-29T15:10:05.813-04:00","message":"[source] Element: hello"}
+{"@timestamp":"2022-04-29T15:10:07.772-04:00","message":"[source] Element: whoa"}
+{"@timestamp":"2022-04-29T15:10:10.154-04:00","message":"[source] Element: wow"}
+{"@timestamp":"2022-04-29T15:10:46.552-04:00","message":"Starting synchronous coordinated shutdown with ServerStoppedReason reason and 35000 milliseconds timeout"}
+{"@timestamp":"2022-04-29T15:10:46.554-04:00","message":"Running CoordinatedShutdown with reason [ServerStoppedReason]"}
+{"@timestamp":"2022-04-29T15:10:46.557-04:00","message":"Stopping Akka HTTP server..."}
+{"@timestamp":"2022-04-29T15:10:46.562-04:00","message":"Terminating server binding for /0:0:0:0:0:0:0:0:9000"}
+{"@timestamp":"2022-04-29T15:10:46.580-04:00","message":"Running CoordinatedShutdown with reason [ApplicationStoppedReason]"}
+{"@timestamp":"2022-04-29T15:10:46.618-04:00","message":"Running provided shutdown stop hooks"}
+{"@timestamp":"2022-04-29T15:14:35.552-04:00","message":"Slf4jLogger started"}
+{"@timestamp":"2022-04-29T15:14:35.585-04:00","message":"Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):\n\n    play.filters.csrf.CSRFFilter\n    play.filters.headers.SecurityHeadersFilter\n    play.filters.hosts.AllowedHostsFilter\n    filters.ContentSecurityPolicyFilter\n"}
+{"@timestamp":"2022-04-29T15:14:35.629-04:00","message":"Application started (Dev) (no global state)"}
+{"@timestamp":"2022-04-29T15:14:35.798-04:00","message":"index: ","host":"localhost:9000","path":"/"}
+{"@timestamp":"2022-04-29T15:14:36.288-04:00","message":"Checking the ORIGIN ","host":"localhost:9000","path":"/chat"}
+{"@timestamp":"2022-04-29T15:14:36.298-04:00","message":"originCheck: originValue = http://localhost:9000","host":"localhost:9000","path":"/chat"}
+{"@timestamp":"2022-04-29T15:16:09.638-04:00","message":"Starting synchronous coordinated shutdown with ServerStoppedReason reason and 35000 milliseconds timeout"}
+{"@timestamp":"2022-04-29T15:16:09.641-04:00","message":"Running CoordinatedShutdown with reason [ServerStoppedReason]"}
+{"@timestamp":"2022-04-29T15:16:09.643-04:00","message":"Stopping Akka HTTP server..."}
+{"@timestamp":"2022-04-29T15:16:09.651-04:00","message":"Terminating server binding for /0:0:0:0:0:0:0:0:9000"}
+{"@timestamp":"2022-04-29T15:16:09.660-04:00","message":"Running CoordinatedShutdown with reason [ApplicationStoppedReason]"}
+{"@timestamp":"2022-04-29T15:16:09.683-04:00","message":"Running provided shutdown stop hooks"}

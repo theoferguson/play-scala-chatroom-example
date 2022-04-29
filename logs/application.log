@@ -1,0 +1,18 @@
+2022-04-29 15:14:35,552 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-6 - Slf4jLogger started
+2022-04-29 15:14:35,585 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-5 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    filters.ContentSecurityPolicyFilter
+
+2022-04-29 15:14:35,629 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-5 - Application started (Dev) (no global state)
+2022-04-29 15:14:35,798 [INFO] from controllers.HomeController in application-akka.actor.default-dispatcher-6 - index: 
+2022-04-29 15:14:36,288 [DEBUG] from controllers.HomeController in play-dev-mode-akka.actor.default-dispatcher-8 - Checking the ORIGIN 
+2022-04-29 15:14:36,298 [DEBUG] from controllers.HomeController in play-dev-mode-akka.actor.default-dispatcher-8 - originCheck: originValue = http://localhost:9000
+2022-04-29 15:16:09,638 [INFO] from play.api.internal.libs.concurrent.CoordinatedShutdownSupport in pool-5-thread-2 - Starting synchronous coordinated shutdown with ServerStoppedReason reason and 35000 milliseconds timeout
+2022-04-29 15:16:09,641 [INFO] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-5 - Running CoordinatedShutdown with reason [ServerStoppedReason]
+2022-04-29 15:16:09,643 [INFO] from play.core.server.AkkaHttpServer in pool-5-thread-2 - Stopping Akka HTTP server...
+2022-04-29 15:16:09,651 [INFO] from play.core.server.AkkaHttpServer in play-dev-mode-akka.actor.internal-dispatcher-14 - Terminating server binding for /0:0:0:0:0:0:0:0:9000
+2022-04-29 15:16:09,660 [INFO] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-8 - Running CoordinatedShutdown with reason [ApplicationStoppedReason]
+2022-04-29 15:16:09,683 [INFO] from play.core.server.AkkaHttpServer in play-dev-mode-akka.actor.internal-dispatcher-3 - Running provided shutdown stop hooks
